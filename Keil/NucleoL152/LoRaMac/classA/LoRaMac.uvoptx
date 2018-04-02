@@ -2904,24 +2904,7 @@
           <Name>UL2CM3(-S0 -C0 -P0 )  -FN1 -FC1000 -FD20000000 -FF0STM32L1xx_512 -FL080000 -FS08000000 -FP0($$Device:STM32L152RE$Flash\STM32L1xx_512.FLM)</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint>
-        <Bp>
-          <Number>0</Number>
-          <Type>0</Type>
-          <LineNumber>341</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134248452</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\..\..\..\src\radio\sx126x\sx126x.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\LoRaMac_us915\../../../../src/radio/sx126x/sx126x.c\341</Expression>
-        </Bp>
-      </Breakpoint>
+      <Breakpoint/>
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
