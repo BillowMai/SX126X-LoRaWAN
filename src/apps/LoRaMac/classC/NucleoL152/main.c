@@ -29,7 +29,7 @@
 #include "LoRaMac.h"
 #include "Commissioning.h"
 
-#define ACTIVE_REGION LORAMAC_REGION_US915 
+#define ACTIVE_REGION LORAMAC_REGION_AS923
 
 #ifndef ACTIVE_REGION
 
@@ -786,10 +786,10 @@ int main( void )
                 LoRaMacMibSetRequestConfirm( &mibReq );
                 printf("LoRaWAN Class C \r\n");
 
-                uint16_t us915ChannelsMask[4]={0x0003,0x0000,0x0000,0x0000};
-                mibReq.Type = MIB_CHANNELS_MASK;
-                mibReq.Param.ChannelsMask = us915ChannelsMask;
-                LoRaMacMibSetRequestConfirm( &mibReq ); //add by billow
+                //uint16_t us915ChannelsMask[4]={0x0003,0x0000,0x0000,0x0000};
+                //mibReq.Type = MIB_CHANNELS_MASK;
+                //mibReq.Param.ChannelsMask = us915ChannelsMask;
+                //LoRaMacMibSetRequestConfirm( &mibReq ); //add by billow
 
 
 

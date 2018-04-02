@@ -10,7 +10,7 @@
       <TargetName>LoRaMac-as923</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
+      <pCCUsed>5060300::V5.06 update 3 (build 300)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L152RE</Device>
@@ -333,9 +333,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER STM32L152xE REGION_AS923 USE_FULL_ASSERT IRQ_MODE</Define>
+              <Define>USE_HAL_DRIVER STM32L152xE USE_FULL_ASSERT REGION_AS923  IRQ_MODE SX1261DVK1BAS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\src;..\..\..\..\src\boards\NucleoL152;..\..\..\..\src\boards\NucleoL152\cmsis;..\..\..\..\src\boards\mcu\stm32;..\..\..\..\src\boards\mcu\stm32\cmsis;..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\inc;..\..\..\..\src\mac;..\..\..\..\src\mac\region;..\..\..\..\src\peripherals;..\..\..\..\src\radio;..\..\..\..\src\system;..\..\..\..\src\system\crypto</IncludePath>
+              <IncludePath>..\..\..\..\src;..\..\..\..\src\boards\NucleoL152;..\..\..\..\src\boards\NucleoL152\cmsis;..\..\..\..\src\boards\mcu\stm32;..\..\..\..\src\boards\mcu\stm32\cmsis;..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\inc;..\..\..\..\src\mac;..\..\..\..\src\mac\region;..\..\..\..\src\peripherals;..\..\..\..\src\radio;..\..\..\..\src\system;..\..\..\..\src\system\crypto;..\..\..\..\src\boards</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
