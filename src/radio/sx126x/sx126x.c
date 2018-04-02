@@ -86,7 +86,7 @@ void SX126xInit( DioIrqHandler dioIrq )
 {
     SX126xReset( );
 
-    ///*test spi
+    /*test spi
     while(1){
     //DelayMs(1000);
     uint8_t syncWord[8]={0x11,0x22,0x33,0x44,0x55,0x66,0x77,0x88};
@@ -94,7 +94,7 @@ void SX126xInit( DioIrqHandler dioIrq )
     memset(syncWord, 0 , 8);
     SX126xReadRegisters( REG_LR_SYNCWORDBASEADDRESS, syncWord, 8 );
     };
-    //*/
+    */
     SX126xIoIrqInit( dioIrq );
 
     SX126xWakeup( );
