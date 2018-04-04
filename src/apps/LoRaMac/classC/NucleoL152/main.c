@@ -58,7 +58,7 @@
 /*!
  * LoRaWAN confirmed messages
  */
-#define LORAWAN_CONFIRMED_MSG_ON                    false
+#define LORAWAN_CONFIRMED_MSG_ON                    true//false
 
 /*!
  * LoRaWAN Adaptive Data Rate

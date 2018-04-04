@@ -1,0 +1,16 @@
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\radio\sx126x\sx126x.c
+.\obj\loramac-as923\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\boards\utilities.h
+.\obj\loramac-as923\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\system\timer.h
+.\obj\loramac-as923\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\obj\loramac-as923\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\radio\radio.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\system\delay.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\radio\sx126x\sx126x.h
+.\obj\loramac-as923\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\system\gpio.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\boards\pinName-board.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\boards\pinName-ioe.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\system\spi.h
+.\obj\loramac-as923\sx126x.o: ..\..\..\..\src\boards\sx126x-board.h
