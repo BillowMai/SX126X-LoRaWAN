@@ -1,0 +1,11 @@
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\mac\region\RegionEU433.c
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\boards\utilities.h
+.\obj\loramac-as923\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\mac\region\RegionCommon.h
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\mac\LoRaMac.h
+.\obj\loramac-as923\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\system\timer.h
+.\obj\loramac-as923\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\radio\radio.h
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\mac\region/Region.h
+.\obj\loramac-as923\regioneu433.o: ..\..\..\..\src\mac\region\RegionEU433.h
